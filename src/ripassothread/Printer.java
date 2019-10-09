@@ -9,6 +9,12 @@ package ripassothread;
  *
  * @author informatica
  */
-public class Printer {
+public class Printer implements Runnable{
     
+
+    
+    @Override
+    public void run() {
+
+    }
 }

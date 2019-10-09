@@ -4,7 +4,8 @@ public class RipassoThread
 {
     public static void main(String[] args) 
     {
-        Runnable CountThread = new Counter();
+        Storage store = new Storage();
+        Runnable CountThread = new Counter(store);
         Thread Thread1 = new Thread (CountThread);
         Thread1.start();
     }

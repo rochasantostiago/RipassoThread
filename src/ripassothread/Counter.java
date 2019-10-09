@@ -23,6 +23,5 @@ public class Counter implements Runnable
     public void count()
     {
         var++;
-        System.out.println(var);
     }
 }

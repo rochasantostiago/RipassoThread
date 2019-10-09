@@ -2,7 +2,7 @@ package ripassothread;
 
 public class Storage 
 {
-    Integer store;
+    Integer store=0;
 
     public Storage() {
     }
@@ -22,5 +22,6 @@ public class Storage
     
     public void Add(Integer value) {
         this.store = value;
+        //System.out.println(store);
     }
 }

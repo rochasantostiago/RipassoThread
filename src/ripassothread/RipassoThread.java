@@ -8,5 +8,9 @@ public class RipassoThread
         Runnable CountThread = new Counter(store);
         Thread Thread1 = new Thread (CountThread);
         Thread1.start();
+        
+        Runnable PrinterThread = new Printer();
+        Thread ThrPrint = new Thread (PrinterThread);
+        ThrPrint.start();
     }
 }

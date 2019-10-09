@@ -17,5 +17,10 @@ public class Storage
 
     public void setStore(Integer store) {
         this.store = store;
-    }   
+    }
+    
+    
+    public void Add(Integer value) {
+        this.store = value;
+    }
 }
